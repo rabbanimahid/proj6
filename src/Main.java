@@ -22,7 +22,6 @@ public class Main {
                 gamePanel.startGame();
                 gamePanel.requestFocusInWindow();
             });
-
             restartBtn.addActionListener(e -> {
                 gamePanel.restartGame();
                 gamePanel.requestFocusInWindow();
